@@ -436,11 +436,7 @@ img {
   color: var(--cloud-bg);
 }
 .social-media {
-  margin-right: 80px;
-  display: flex;
   flex-direction: column;
-  justify-self: start;
-  min-width: 208px;
 }
 .text-social {
   margin-bottom: 16px;
@@ -459,6 +455,9 @@ img {
 .footet-social-link:hover,
 .footet-social-link:focus {
   background-color: #31d0aa;
+}
+.subscribe {
+  margin-left: auto;
 }
 .subscribe-form {
   display: flex;
@@ -491,6 +490,7 @@ img {
   justify-content: center;
   gap: 16px;
 
+  border: none;
   border-radius: 4px;
   background-color: var(--accent-color);
   color: #ffffff;
@@ -631,7 +631,7 @@ img {
   transform: translate(-50%, -50%) scale(1);
 
   width: 408px;
-  height: 576px;
+  padding: 72px 24px 24px;
 
   background: var(--modal-bg);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -678,10 +678,8 @@ img {
 .form {
   display: flex;
   flex-direction: column;
-  padding: 24px;
 }
 .form-title {
-  margin-top: 48px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -698,6 +696,9 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+.form-field-textarea {
+  margin-bottom: 16px;
 }
 .form-label {
   margin-bottom: 4px;
@@ -750,6 +751,9 @@ img {
 .form-textarea:focus {
   outline: none;
   border-color: var(--accent-color);
+}
+.police-link {
+  color: var(--accent-color);
 }
 .form-label-checkbox {
   display: flex;
